@@ -1,0 +1,9 @@
+name: Amphtml 1
+jobs:
+  Job1:
+    name: Job 1
+    steps:
+      - type: script
+        script-content: echo 'xxx'
+      - type: maven
+    runs-on: Linux-Medium
