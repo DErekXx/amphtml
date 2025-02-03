@@ -6,3 +6,4 @@ jobs:
         script-content: echo 'xxx'
       - type: maven
     runs-on: Linux-Medium
+    enable-dependency-cache: true
