@@ -7,3 +7,11 @@ jobs:
       - type: maven
     runs-on: Linux-Medium
     enable-dependency-cache: true
+parameters:
+  '434': |-
+    dsadsa
+    dsad
+    sa
+  '3232': '3232'
+  '121212': '3243'
+  dddd: dddd
