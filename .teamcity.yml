@@ -7,3 +7,6 @@ jobs:
       - type: maven
     runs-on: Linux-Medium
     enable-dependency-cache: true
+parameters:
+  dsa: ds
+  e43: '43'
