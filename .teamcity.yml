@@ -8,6 +8,4 @@ jobs:
     runs-on: Linux-Medium
     enable-dependency-cache: true
 parameters:
-  '32': '32'
-  '33': '11'
   dsa: dsa
