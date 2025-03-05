@@ -7,3 +7,9 @@ jobs:
       - type: maven
     runs-on: Linux-Medium
     enable-dependency-cache: true
+    parameters:
+      aaa: aaa
+      vvvv: vvv
+    output-parameters:
+      rrr: rrrr
+      bbbb: bbb
