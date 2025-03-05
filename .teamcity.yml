@@ -7,3 +7,9 @@ jobs:
       - type: maven
     runs-on: Linux-Medium
     enable-dependency-cache: true
+    output-parameters:
+      output_parameter_Job1_0: '222'
+    files-publication:
+      - ''
+      - ''
+      - ''
