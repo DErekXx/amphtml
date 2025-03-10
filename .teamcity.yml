@@ -13,7 +13,3 @@ jobs:
     output-parameters:
       rrr: rrrr
       bbbb: bbb
-    files-publication:
-      - '111'
-      - '333'
-      - ''
