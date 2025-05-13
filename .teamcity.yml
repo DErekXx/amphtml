@@ -1,10 +1,7 @@
 jobs:
   Job1:
     name: Job 1
-    steps:
-      - type: script
-        script-content: echo 'xxx'
-      - type: maven
+    steps: []
     runs-on: Linux-Medium
     enable-dependency-cache: true
     parameters:
@@ -13,11 +10,3 @@ jobs:
     output-parameters:
       rrr: rrrr
       bbbb: bbb
-  Job2:
-    name: Job 2
-    runs-on: Linux-Medium
-    steps:
-      - type: script
-        docker-image: dsa
-        script-content: ddsa
-        dockerfile-source: dsds
