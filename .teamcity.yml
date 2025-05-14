@@ -1,7 +1,41 @@
 jobs:
   Job1:
     name: Job 1
-    steps: []
+    steps:
+      - type: script
+        dockerfile-source: |-
+          dsa
+          sa
+          d
+          ad
+          add
+          a
+
+          dadss
+
+          sa
+          d
+          a
+
+          a
+          d
+          a
+          d
+          as
+          d
+          a
+          d
+          dsa
+          ds
+          ads
+          ad
+          a
+
+          dsa
+          d
+          sa
+          d
+        script-content: dsa
     runs-on: Linux-Medium
     enable-dependency-cache: true
     parameters:
