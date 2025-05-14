@@ -1,9 +1,7 @@
 jobs:
   Job1:
     name: Job 1
-    steps:
-      - type: script
-        script-content: dsa
+    steps: []
     runs-on: Linux-Medium
     enable-dependency-cache: true
     parameters:
