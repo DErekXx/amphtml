@@ -1,7 +1,46 @@
 jobs:
   Job1:
     name: Job 1
-    steps: []
+    steps:
+      - type: script
+        script-content: |-
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
+          echo "111"
+          sleep 199
     runs-on: Linux-Medium
     enable-dependency-cache: true
     parameters:
